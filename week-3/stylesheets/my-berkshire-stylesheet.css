@@ -1,0 +1,61 @@
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+   You have to use the <link> tag. You have to indicate three attributes. You need to specify relationship <rel>, the type(for example “text/css”), and the relative link. For example, you can use <link rel=”stylesheet" type="text/css” href=”relative path here”>.
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+    We used columns. It was pretty difficult, but the html I did last week wasn’t great, so we had a rough spot to work from.
+What CSS did you use to modify the element style (like size, color, etc.)
+    We used CSS elements such as font-size and color. This seems like a silly question to answer in my CSS file? Like I don't know how to say it better than the rest of this document does.
+Did you modify the HTML to include classes or ids? If so, which did you chose and why? If you didn't, how would you know which one to add to your HTML?
+    We didn't use classes or ids. Classes are good for when a certain type of thing needs to be different, and ids are good for one specific thing. Really they do the same thing but it's the concept you go with for readability.
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+    As much as I'll admit ours isn't great, I thought that the table layout was particularly clunky to read, and the inline styling was an added frustration. So they have a good site, but I'd rather make improvements to ours for future project references.
+*/
+
+html {
+    color: #000080;
+    background-color: #ffffff;
+}
+
+a {
+    color: #800080;
+  }
+
+a:visited {
+    color: #ff0000
+ }
+ p{
+  font-size: .75em;
+ }
+
+header {
+    text-align: center;
+    }
+span {
+    display: block;
+    }
+bold span{
+  display: initial;
+  font-size: 2em;
+}
+aside {
+  text-align: center;
+}
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+h1 {
+  content: "";
+  display: block;
+  border-top: solid 1px black;
+  width: 100%;
+  height: 1px;
+  z-index: 1;
+}
+div {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+   }
