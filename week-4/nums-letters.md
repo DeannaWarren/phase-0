@@ -11,7 +11,7 @@ puts 24*365
 puts 'The number of minutes in a decade is '
 puts (((60*24)*365)*10)
 
-challenge 1 link
+[4.2.1](https://github.com/DeannaWarren/phase-0/blob/master/week-4/defining-variables.rb)
 challenge 2 link
 challenge 3 link
 
