@@ -12,7 +12,7 @@ puts 'The number of minutes in a decade is '
 puts (((60*24)*365)*10)
 
 [4.2.1](https://github.com/DeannaWarren/phase-0/blob/master/week-4/defining-variables.rb)
-challenge 2 link
+[4.2.2](https://github.com/DeannaWarren/phase-0/blob/master/week-4/simple-string.rb)
 challenge 3 link
 
 #How does Ruby handle addition, subtraction, multiplication, and division of numbers?
