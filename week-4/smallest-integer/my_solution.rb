@@ -15,3 +15,5 @@ def smallest_integer(list_of_nums)
   list_of_nums.sort!
   return list_of_nums[0]
 end
+
+#I am going to come back on my own to this challenge if I have time, but it is sunday and two hours in, I looked for methods.
