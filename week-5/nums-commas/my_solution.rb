@@ -55,7 +55,7 @@ def seperate_comma(integer)
   END IF
 
 # 2. Refactored Solution
-
+#notes to self from chap 10 WGR: check out [.each_char, .join, .split]
 
 
 
