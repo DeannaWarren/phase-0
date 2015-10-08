@@ -1,4 +1,4 @@
-#require "rspec/autorun"
+require "rspec/autorun"
 
 # Research Methods
 
@@ -10,16 +10,19 @@ my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, 
 # Person 2
 
 def my_array_modification_method!(source, thing_to_modify)
+
+  end
 end
+
 
 def my_hash_modification_method!(source, thing_to_modify)
 end
 
-my_array_modification_method!(i_want_pets,4)
+my_array_modification_method!(i_want_pets,1)
 
 # Release 1: Identify and describe the Ruby method you implemented. Teach your
 # accountability group how to use the methods.
-#
+# .is_a?
 #
 #
 
@@ -34,7 +37,7 @@ my_array_modification_method!(i_want_pets,4)
 
 #-------------------
 
-=begin
+#=begin
 # PERSON 2: MODIFY EXISTING DATA
 describe 'PERSON 2: my_array_modification_method!' do
   let(:i_want_pets) {["I", "want", 3, "pets", "but", "only", "have", 2 ]}
@@ -62,4 +65,4 @@ describe 'PERSON 2: my_hash_modification_method!' do
   end
 
 end
-=end
+#=end
