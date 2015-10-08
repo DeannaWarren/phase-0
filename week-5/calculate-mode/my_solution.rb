@@ -61,7 +61,27 @@ end
 mode [1,2,2,2,2,2,3,3,3,3,3]
 
 # 4. Reflection
-### Which data structure did you and your pair decide to implement and why?--->We decided to use a hash that funneled into an array for display.
-### Were you more successful breaking this problem down into implementable pseudocode than the last with a pair?--> We did an awesome job breaking this down, considering we were very uncertain of how to accomplish some of those steps.
-### What issues/successes did you run into when translating your pseudocode to code?--> we had a difficult time discovering how to translate some of the ideas. max was an awesome one that took a minute to figure out implementation.
-### What methods did you use to iterate through the content? Did you find any good ones when you were refactoring? Were they difficult to implement.--> we had a little trouble getting the hang of ordering methods onto hash, but we got there. We tried a bunch of things refactoring, but we weren't able to neatly change anything without just tearing it down and redoing it, and that wasn't working.
+### Which data structure did you and your
+ pair decide to implement and why?--->We
+ decided to use a hash that funneled into
+  an array for display.
+### Were you more successful breaking this
+ problem down into implementable pseudocode
+  than the last with a pair?--> We did an
+  awesome job breaking this down, considering
+  we were very uncertain of how to accomplish\
+   some of those steps.
+### What issues/successes did you run into when
+ translating your pseudocode to code?--> we had a
+ difficult time discovering how to translate
+  some of the ideas. max was an awesome one
+   that took a minute to figure out implementation.
+### What methods did you use to iterate through
+the content? Did you find any good ones when
+you were refactoring? Were they difficult to
+implement.--> we had a little trouble getting
+ the hang of ordering methods onto hash, but
+ we got there. We tried a bunch of things
+ refactoring, but we weren't able to neatly change
+  anything without just tearing it down and redoing
+  it, and that wasn't working.
