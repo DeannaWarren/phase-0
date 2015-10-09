@@ -32,27 +32,53 @@ Define a Method that Takes an Integer- main Method
 
 # 1. Initial Solution
 
-def seperate_comma(integer)
-  digits = array.new
-  digit_count = integer.length
-  counter = 0
-  if counter < digit_count  do
-    digits << integer[counter]
-    counter += 1
+def separate_comma(integer)
+  digits = Array.new
+  string_maker = Array.new
+  s_integer = integer.to_s
+  digits += s_integer.split ("")
+  num_fix = digits.length
+  x = num_fix / 3
+  y = num_fix % 3
+  if num_fix == 0
+    puts "There is no number!"
+  elsif num_fix <= 3
+    string_maker << digits
+  elsif y == 0
+    string_maker << digits[0] + digits[1] + digits[2]
+    counter = 1
+    (x-1).times do
+      string_maker << ","
+      string_maker << digits[0 +(3 * counter)]
+      string_maker << digits[1 +(3 * counter)]
+      string_maker << digits[2 +(3 * counter)]
+      counter += 1
+    end
+  elsif y == 1
+    string_maker << digits[0]
+    counter = 0
+    (x).times do
+      string_maker << ","
+      string_maker << digits[1 +(3 * counter)]
+      string_maker << digits[2 +(3 * counter)]
+      string_maker << digits[3 +(3 * counter)]
+      counter += 1
+    end
+  elsif y == 2
+    string_maker << digits[0] + digits[1]
+    counter = 0
+    x.times do
+      string_maker << ","
+      string_maker << digits[2 +(3 * counter)]
+      string_maker << digits[3 +(3 * counter)]
+      string_maker << digits[4 +(3 * counter)]
+      counter += 1
+    end
   end
-  x = digit_count / 3
-  y = digit_count % 3
-  IF y = 0 && digit_count != 0
-    p
+  p string_maker.join
+end
 
-    print print the first three numbers in the container. then print a comma and next three numbers in containter, repeated by one less than the number of digits divided by three.
-  ELSEIF the modulus returned 1
-    Print the first number in the containter.print a comma and next three numbers in containter, repeated by the number of digits divided by three.
-  ELSEIF
-    Print the first two numbers in the container. print a comma and next three numbers in containter, repeated by the number of digits divided by three.
-  ELSE
-    return a statement that there was no input
-  END IF
+
 
 # 2. Refactored Solution
 #notes to self from chap 10 WGR: check out [.each_char, .join, .split]
