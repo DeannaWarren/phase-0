@@ -32,7 +32,7 @@ Define a Method that Takes an Integer- main Method
 
 # 1. Initial Solution
 
-def separate_comma(integer)
+def seperate_comma(integer)
   digits = Array.new
   string_maker = Array.new
   s_integer = integer.to_s
@@ -77,8 +77,6 @@ def separate_comma(integer)
   end
   p string_maker.join
 end
-
-
 
 # 2. Refactored Solution
 #notes to self from chap 10 WGR: check out [.each_char, .join, .split]
