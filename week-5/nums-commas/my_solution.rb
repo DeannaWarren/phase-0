@@ -40,7 +40,9 @@ def seperate_comma(integer)
   num_fix = digits.length
   x = num_fix / 3
   y = num_fix % 3
-  if num_fix <= 3
+  if num_fix == 0
+    puts "There is no number!"
+  elsif num_fix <= 3
     string_maker << digits
   elsif y == 0
     string_maker << digits[0] + digits[1] + digits[2]
@@ -75,8 +77,6 @@ def seperate_comma(integer)
   end
   p string_maker.join
 end
-
-seperate_comma(100000000000000000)
 
 # 2. Refactored Solution
 #notes to self from chap 10 WGR: check out [.each_char, .join, .split]
