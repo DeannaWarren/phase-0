@@ -54,11 +54,14 @@ end
 
 
 # 3. Refactored Solution
-
-
-
-
+#... i'm happy with my solution
 
 
 
 # 4. Reflection
+# What is an ArgumentError and why would you use one? --> Argument errors are for telling a user that they didn't do something right and therefore the code won't run properly.
+# What new Ruby methods did you implement? What challenges and successes did you have in implementing them? --> random was AWESOME.I'm still not 100% sure I understand why it's implemented that way, but it's ok.
+# What is a Ruby class? --> a class is a type of object with certain attributes.
+# Why would you use a Ruby class? --> a ruby class is awesome for things like dice, that have different actions that can be applied, but are relevent to each other.
+# What is the difference between a local variable and an instance variable? --> local is in a method, instance is in a class
+# Where can an instance variable be used? --> in class methods
