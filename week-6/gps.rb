@@ -1,8 +1,8 @@
 # Your Names
-# 1)
-# 2)
+# 1) Deanna Warren
+# 2)Josh Abrams
 
-# We spent [#] hours on this challenge.
+# We spent [1] hours on this challenge.
 
 # 1. Variable Names X
 # 2. Refactor argument Error on 29
