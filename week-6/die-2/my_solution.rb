@@ -58,8 +58,8 @@ class Die
     p @sides
   end
 
-  def roll (num_die = 1)
-    num_die.times do
+  def roll (num_die = 1) #adds multiple die functionality
+    num_die.times do #rolls the appropriate number of die
       roll = Random.new
       num = roll.rand(@sides) -1
       output = @values[num]
@@ -71,7 +71,7 @@ end
 # Reflection
 # What were the main differences between this die class and the last one you created in terms of implementation? Did you need to change much logic to get this to work?
 #   Not really. All I had to do was pass it an array instead of making a
-#range, then call an index point. Besides that it's basically identical.
+#range, then reference an index point. Besides that it's basically identical.
 
 # What does this exercise teach you about making code that is easily changeable or modifiable?
 #   It's not as hard as it sounds.

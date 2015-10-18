@@ -45,20 +45,15 @@ class CreditCard
   end
 
   def make_array
-    #makes an array of each digit in our integer
     @list = @number.to_s.split(//)
-    #iterate through our array
     @list.each do |int|
-      #inside our list, we want to access the index           of int so we can change it, we do NOT want to         just call @list[int].
       @list[@list.index(int)] = int.to_i
     end
   end
 
   def double_evens
-    #iterate through the list
     counter = 0
     @list.each do |digit|
-      #if you reach a digit that has an index of an           even number or 0
       if counter % 2 == 0 || counter == 0
         @list[counter] *= 2
       end
@@ -96,16 +91,13 @@ class CreditCard
 end
 
 # Refactored Solution
-
-
-
-
-
-
-
+#Did not find helpful methods for refactoring. Happy with our solution.
 
 # Reflection
 
-
-
-
+# What was the most difficult part of this challenge for you and your pair?
+# => we had some trouble figuring out how to best split the double digit numbers to add them together.
+# What new methods did you find to help you when you refactored?
+# => I wasn't able to find anything that really improved on anything we were doing.
+# What concepts or learnings were you able to solidify in this challenge?
+# => I was able to improve on my iteration.
