@@ -5,12 +5,21 @@
 // Program Structure
 // Write your own variable and do something to it.
 
+var Deanna = "deanna is awesome"
+console.log(Deanna)
 
 
+//short program
+prompt("What is your favorite fruit?")
+console.log("Hey! That's my favorite, too!")
 
-// Complete one of the exercises: Looping a Triangle, FizzBuzz, or Chess Board
+// Complete one of the exercises: Looping a Triangle, FizzBuzz, or Chess Board DOING FIZZBUZZ
 
-
+for (var number = 1; number < 101; number++)
+  if (number % 3 === 0 && number % 5 === 0) (console.log("FizzBuzz"))
+  else if (number % 3 === 0) (console.log("Fizz"));
+  else if (number % 5 === 0) (console.log("Buzz"));
+  else (console.log(number));
 
 // Functions
 
