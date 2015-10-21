@@ -16,24 +16,51 @@ var terah = {
 // __________________________________________
 // Write your code below.
 
+var adam = {
+  name: "Adam",
+}
 
+terah.spouse = adam;
 
+terah.weight =125;
 
+delete terah.eyeColor;
 
+adam.spouse = terah;
 
+terah.children = {
+};
 
+terah.children.carson = {};
+terah.children.carson.name = "Carson";
 
+terah.children.carter = {};
+terah.children.carter.name = "Carter"
 
+terah.children.colton = {}
+terah.children.colton.name = "Colton"
 
-
+adam.children = terah.children
 // __________________________________________
-// Reflection: Use the reflection guidelines
-//
-//
-//
-//
-//
-//
+/*
+Reflection: Use the reflection guidelines
+What tests did you have trouble passing? What did you do to make
+it pass? Why did that work?
+I had a lot of trouble passing the 'define an object called carter'
+because I thought it was still carson because it took me a few
+minutes to pass that test, and then I was frusterated because it was
+the same code, it's right there, you liked it a minute ago. But it
+ was the wrong child!! So I changed the name and ta-da! I'll keep
+  a closer eye on similar words from now on.
+
+How difficult was it to add and delete properties outside of
+ the object itself?
+Not Hard, just tricky. I had to look up how to assign
+values to nested objects.
+
+What did you learn about manipulating objects in this challenge?
+I learned a lot about objects, and how to deal with nested objects.
+*/
 
 
 // __________________________________________
