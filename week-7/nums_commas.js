@@ -59,3 +59,13 @@ function makeCommas(number){
 
 
 // Reflection
+/*
+What was it like to approach the problem from the perspective of JavaScript? Did you approach the problem differently?
+    I approached the problem differently, but a lot of that is that I came totally backwards at the problem for my solo, and had an aha moment on Sunday and wasn't able to find time to redo the entire challenge by then.
+What did you learn about iterating over arrays in JavaScript?
+    I learned that for loops are awesome. But on a more serious note, I learned a lot about how for loops work and how the syntax works.
+What was different about solving this problem in JavaScript?
+    A lot of the syntax is different, but it's not super different in the core of it.
+What built-in methods did you find to incorporate in your refactored solution?
+    we used .toString, .split, .reverse, and .join in our refactored solution.
+*/
