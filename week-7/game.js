@@ -227,6 +227,20 @@ play()
 
 // Reflection
 //
-//
+//What was the most difficult part of this challenge?
+        // I think the most difficult part of this challenge was just deciding to do it!
+        // I had a lot of trouble coming up with ideas.
+// What did you learn about creating objects and functions that interact with one another?
+        // You have to keep track of what is doing what to what. So for example, all of the stats
+        //  in my game have a decay value. YOu have to be able to use another function to
+        // show the final count. Petting the cat has a decay of 10 joy a turn, so to increase
+        // joy by ten instead, I have to have theh act of petting return +20, to also interact
+        // with the -10 at turn end.
+// Did you learn about any new built-in methods you could use in your refactored solution? If so, what were they and how do they work?
+        // My initial solution was pretty neat. It's really just simple math adjustments and function clals. So I didn't find anything exciting.
+// How can you access and manipulate properties of objects?
+        // you can use functions that add to or replace values. for numeric values, you can use mathmatics on them.
+        // To access them, you reference them as Object.property or Object[property]
+
 //
 //
