@@ -21,7 +21,7 @@
 
 ---
 
-![][sample-schema.png]
+![alt text](sample-schema.png "Logo Title Text 1")
 
 ---
 
