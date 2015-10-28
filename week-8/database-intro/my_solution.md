@@ -21,7 +21,7 @@
 
 ---
 
-![Sample Schema][sample-schema.png]
+![sample-schema.png]
 
 ---
 
