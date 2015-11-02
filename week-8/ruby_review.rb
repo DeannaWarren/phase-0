@@ -61,7 +61,7 @@ def super_fizzbuzz(array)
   # for each item in the array, place the following into the new array in order
   array.each do |number|
   #   if divisible by both 5 and 3, place the string "FizzBuzz"
-      if number % 3 == 0 && number % 5 == 0
+      if number % 15 == 0
         new_array.push("FizzBuzz")
   #   if divisible by 3, place the string "Fizz"
       elsif number % 3 == 0
