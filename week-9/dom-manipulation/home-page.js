@@ -40,3 +40,10 @@ for (var i = 0; i < elements.length; i++) {
 
 var tmpl = document.getElementById('hidden');
 document.body.appendChild(tmpl.content.cloneNode(true));
+
+
+// What did you learn about the DOM?
+// >> I learned that it's very closely connected to the html itself. I think the most exciting thing I learned is how to replace a peice of text.
+// What are some useful methods to use to manipulate the DOM?
+// >> .getElementBy[example] is super helpful. setAttribute is cool, but I'm personally super excited about .style in terms of writing a game or such.
+// -->
